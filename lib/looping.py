@@ -12,14 +12,14 @@ def square_integers(int_list):
     return squared_list
     pass
 
-def fizzbuzz(num):
-    #for num in range (1, 101):
+def fizzbuzz():
+    for num in range (1, 101):
      if num % 3 == 0 and num % 5 == 0:
-        return "FizzBuzz" 
+        print("FizzBuzz")
      elif num % 3 == 0:
-        return "Fizz"
+        print("Fizz")
      elif num % 5 == 0:
-        return "Buzz"
+        print("Buzz")
      else:
         print (num)
         pass
